@@ -12,6 +12,12 @@
     --dairy: #fcfcfc;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
 color: var(--slate);
 background-color:var(--white);
