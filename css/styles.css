@@ -231,8 +231,7 @@ nav li a:first-child:focus {
 }
 
 
-
-/******** second section list *********/
+/******** third section list *********/
 .third-header {
     font-size: 36px;
     line-height: 1.11;
@@ -240,6 +239,20 @@ nav li a:first-child:focus {
     text-transform: capitalize;
     color: #2e2f42;
 }
+
+.second-section {
+    padding-bottom: 120px;
+}
+
+.third-class-list{
+    margin-bottom: 72px;
+    display: flex;
+    gap: 24px;}
+
+.third-list{
+    width: calc((100% - 48px) / 3);
+}
+
 
 /******** fourth section *********/
 .fourth-section {
