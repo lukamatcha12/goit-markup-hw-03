@@ -12,6 +12,12 @@
     --dairy: #fcfcfc;
 }
 
+.{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
 img {
     display: block;
     max-width: 100%;
@@ -80,7 +86,7 @@ font-family:"Roboto",sans-serif;
 .list {
     list-style: none;
     display: flex;
-    gap property: 24px;
+    gap: 24px;
 }
 
 nav li a:first-child {
