@@ -305,8 +305,11 @@ nav li a:first-child:focus {
     color: var(--light-grey);
 }
 
+/******** footer *********/
+
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
 .inside-logo {
@@ -317,6 +320,12 @@ nav li a:first-child:focus {
     line-height: 1.5;
     color: var(--cloud);
     letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.link{
+    display:inline-block;
+    margin-bottom: 16px;
 }
 
 /**** portfolio ****/
