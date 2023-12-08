@@ -113,6 +113,40 @@ nav li a:first-child:focus {
 .address a:focus {
     color: var(--light-blue-focus);
 }
+/******** checking header *********/
+.header {
+    border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+
+.div-container-header{
+    display: flex;  
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav{
+    align-items:center;
+    display: flex;
+}
+
+
+.menu-list{
+    display: flex;
+    gap: 40px;
+    margin-right: 76px;
+}
+
+.link-class{
+    padding: 24px 0;
+    display: flex;
+    gap: 40px;
+}
+
+
 /******** firts section *********/
 .firts-section {
     background-color: #2e2f42;
