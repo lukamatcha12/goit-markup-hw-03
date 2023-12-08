@@ -79,6 +79,8 @@ font-family:"Roboto",sans-serif;
 
 .list {
     list-style: none;
+    display: flex;
+    gap property: 24px;
 }
 
 nav li a:first-child {
@@ -193,6 +195,7 @@ nav li a:first-child:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-two-list {
@@ -200,7 +203,26 @@ nav li a:first-child:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--#434455);
+    width: calc((100% - 72px) / 4); 
 }
+
+.second-section{
+    padding: 120px 0; 
+    
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
 
 /******** second section list *********/
 .third-header {
