@@ -330,6 +330,38 @@ nav li a:first-child:focus {
 
 /**** portfolio ****/
 
+.header-class{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.ul-list{
+    width: 1158;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.portfolio-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-class{
+    margin-right: 76x;  
+}
+
+.portfolio-ul{
+    display: flex;
+    gap: 40px;
+}
+
+.portfolio-list{
+    padding: 24px 0;
+}
+
+
+
+
+
 .portfolio-body{
     font-family: "Roboto", sans-serif;
     color: var(--slate);
