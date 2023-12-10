@@ -255,7 +255,7 @@ nav li a:first-child:focus {
     padding-bottom: 120px;
 }
 
-.third-class-list{
+.third-class-list {
     margin-bottom: 72px;
     display: flex;
     gap: 24px;
@@ -263,8 +263,8 @@ nav li a:first-child:focus {
     padding: 0;
 }
 
-.third-list{
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.third-list {
+    flex-basis: calc((100% - 48px) / 3);
 }
 /******** fourth section *********/
 .fourth-section {
@@ -386,7 +386,7 @@ nav li a:first-child:focus {
 
 }
 
-.main-btn{
+.main-btn {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -416,6 +416,7 @@ nav li a:first-child:focus {
 
 .logo-class {
     margin-right: 76px;
+    gap: 40px;
 }
 
 
@@ -477,6 +478,8 @@ nav li a:first-child:focus {
     padding: 12px 24px;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 
