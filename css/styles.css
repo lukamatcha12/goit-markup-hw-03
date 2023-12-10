@@ -253,7 +253,7 @@ nav li a:first-child:focus {
     display: flex;
     gap: 24px;}
 
-    
+
 /******** fourth section *********/
 .fourth-section {
     background-color: #F4F4FD;
@@ -380,7 +380,7 @@ nav li a:first-child:focus {
 
 
 .portfolio-list{
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-div{
