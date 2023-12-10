@@ -69,7 +69,7 @@ font-family:"Roboto",sans-serif;
     --dirty-white: #f4f4fd;
 }
 
-.logo {
+/* .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -77,7 +77,7 @@ font-family:"Roboto",sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--light-blue);
-}
+} */
 
 .header-logo-studio {
     color: var(--grey);
@@ -352,24 +352,25 @@ nav li a:first-child:focus {
 
 /**** portfolio ****/
 
-.header-class{
+.header-class {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.ul-list{
+.ul-list {
     width: 1158;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.portfolio-nav{
+.portfolio-nav {
     display: flex;
     align-items: center;
 }
 
-.portfolio-ul{
+.portfolio-ul {
     display: flex;
     gap: 40px;
+    padding: 24px;
 }
 
 
@@ -478,8 +479,6 @@ nav li a:first-child:focus {
     padding: 12px 24px;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
-    column-gap: 24px;
-    row-gap: 48px;
 }
 
 
@@ -494,6 +493,8 @@ nav li a:first-child:focus {
 
 .service {
     text-decoration: none;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .service-description {
