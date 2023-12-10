@@ -352,7 +352,7 @@ nav li a:first-child:focus {
 
 /**** portfolio ****/
 
-.header-class {
+.header-class{
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -386,10 +386,6 @@ nav li a:first-child:focus {
 
 }
 
-.address-link{
-    gap: 40px;
-}
-
 .main-btn {
     display: flex;
     justify-content: center;
@@ -405,6 +401,10 @@ nav li a:first-child:focus {
 }
 
 .btn-list{
+    gap: 40px;
+}
+
+.list-gap{
     gap: 40px;
 }
 
