@@ -370,7 +370,6 @@ nav li a:first-child:focus {
 .portfolio-ul {
     display: flex;
     gap: 40px;
-    padding: 24px;
 }
 
 
@@ -385,6 +384,10 @@ nav li a:first-child:focus {
     padding: 24px 0;
     gap: 40px;
 
+}
+
+.address-link{
+    gap: 40px;
 }
 
 .main-btn {
