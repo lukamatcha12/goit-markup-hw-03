@@ -301,7 +301,10 @@ nav li a:first-child:focus {
 
 
 .list {
-    list-style: none;}
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .section-four-list-header {
     font-weight: 500;
