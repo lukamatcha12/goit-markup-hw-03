@@ -157,6 +157,10 @@ nav li a:first-child:focus {
     gap: 40px;
 }
 
+.header-ul-list{
+    display: flex;
+    gap: 40px;
+}
 
 /******** firts section *********/
 .firts-section {
@@ -372,7 +376,7 @@ nav li a:first-child:focus {
 
 .link-style{
     padding: 24px 0;
-     gap: 40px;
+    gap: 40px;
 
 }
 
