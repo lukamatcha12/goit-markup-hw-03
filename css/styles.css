@@ -215,7 +215,7 @@ nav li a:first-child:focus {
 }
 
 .section-two-list{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .second-section{
@@ -256,7 +256,9 @@ nav li a:first-child:focus {
     display: flex;
     gap: 24px;}
 
-
+.third-list{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 /******** fourth section *********/
 .fourth-section {
     background-color: #F4F4FD;
