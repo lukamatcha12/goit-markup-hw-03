@@ -393,18 +393,19 @@ nav li a:first-child:focus {
     margin-bottom: 72px;
 }
 
-.btn{
+.btn {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-.btn-list{
+/* .btn-list{
     gap: 40px;
-}
+} */
 
 .list-gap{
+    display: flex;
     gap: 40px;
 }
 
@@ -494,11 +495,11 @@ nav li a:first-child:focus {
     border: 1px solid transparent;
 }
 
-.service {
+/* .service {
     text-decoration: none;
     column-gap: 24px;
     row-gap: 48px;
-}
+} */
 
 .service-description {
     font-weight: 500;
