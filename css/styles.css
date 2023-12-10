@@ -77,7 +77,6 @@ font-family:"Roboto",sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--light-blue);
-    margin-right: 76x;
 }
 
 .header-logo-studio {
@@ -142,6 +141,9 @@ nav li a:first-child:focus {
     display: flex;
 }
 
+.logo-link{
+    margin-right: 76px;
+}
 
 .menu-list{
     display: flex;
@@ -239,6 +241,7 @@ nav li a:first-child:focus {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .second-section {
@@ -250,11 +253,7 @@ nav li a:first-child:focus {
     display: flex;
     gap: 24px;}
 
-.third-list{
-    width: calc((100% - 48px) / 3);
-}
-
-
+    
 /******** fourth section *********/
 .fourth-section {
     background-color: #F4F4FD;
